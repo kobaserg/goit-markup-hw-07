@@ -410,34 +410,34 @@
           <h2 class="clients">Постоянные клиенты</h2>
           <div>
             <ul class="list-decor clients-list">
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo6"></use>
                 </svg>
               </li>
 
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo5"></use>
                 </svg>
               </li>
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo4"></use>
                 </svg>
               </li>
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo3"></use>
                 </svg>
               </li>
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo2"></use>
                 </svg>
               </li>
-              <li class="clients-item">
-                <svg class="icon-clients">
+              <li class="clients__item">
+                <svg class="clients__icon">
                   <use href="./images/Sprite.svg#icon-Logo1"></use>
                 </svg>
               </li>
@@ -449,8 +449,8 @@
 
     <!-- Наши контакты-->
 
-    <footer class="page-footer">
-      <div class="container footer-flex">
+    <footer class="footer">
+      <div class="container footer-box">
         <div>
           <p class="logo">
             <a class="link" href="index.html">
@@ -458,58 +458,61 @@
           </a>
           </p>
           
-          <address class="footer-сontact footer-box">
-            <p class="address"><a class="link" href="">г. Киев, пр-т Леси Украинки, 26</a></p>
-            <p class="team-email"><a class="link" href="">info@example.com</a></p>
-            <p><a class="link" href="">+38 099 111 11 11</a></p>
+          <address class="footer-сontact footer--position">
+            <p class="footer__address"><a class="link footer-contact__link" href="">г. Киев, пр-т Леси Украинки, 26</a></p>
+            <p class="footer__email--position"><a class="link footer-contact__link" href="">info@example.com</a></p>
+            <p><a class="link footer-contact__link" href="">+38 099 111 11 11</a></p>
           </address>
         </div>
+
         <div class="join">
-          <h3 class="join-title">Присоединяйтесь</h3>
-          <ul class="list-decor join-list">
+          <h3 class="join__title">Присоединяйтесь</h3>
+          <ul class="list-decor join-icon-list">
             <li>
-              <a class="join-item" href="">
-                <svg class="icon-join">
+              <a class="join-icon-link" href="">
+                <svg class="join__icon">
                   <use href="./images/Sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="join-item" href="">
-                <svg class="icon-join">
+              <a class="join-icon-link" href="">
+                <svg class="join__icon">
                   <use href="./images/Sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="join-item" href="">
-                <svg class="icon-join">
+              <a class="join-icon-link" href="">
+                <svg class="join__icon">
                   <use href="./images/Sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="join-item" href="">
-                <svg class="icon-join">
+              <a class="join-icon-link" href="">
+                <svg class="join__icon">
                   <use href="./images/Sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="email-input">
-          <h3 class="join-title">Подпишитесь на рассылку</h3>
 
-          <form class="input-text-footer">
+        <div class="footer-mailing">
+          <h3 class="footer-mailing__title">Подпишитесь на рассылку</h3>
+
+          <form class="footer-mailing__input">
             <label>
-              <input class="email-form" type="email" placeholder="E-mail" />
+              <input class="footer-mailing__email" type="email" placeholder="E-mail" />
             </label>
 
-            <button class="btn-email" type="submit">Подписаться</button>
+            <button class="footer-mailing-btn" type="submit">Подписаться</button>
           </form>
         </div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
