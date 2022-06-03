@@ -1,0 +1,30 @@
+// utils 
+
+@import './utils/vars';
+@import './utils/vissually-hidden';
+
+// base styles
+
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+// components
+
+@import './components/logo';
+@import './components/button-service';
+@import './components/modal-hero';
+@import './components/hero-modal-custom-checkbox';
+@import './components/button-submit';
+@import './components/social-media-list';
+
+// layouts
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/our-approach';
+@import './layouts/projects';
+@import './layouts/our-team';
+
+
+
