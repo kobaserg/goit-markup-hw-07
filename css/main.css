@@ -70,9 +70,26 @@ h3 {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .logo {
@@ -755,15 +772,6 @@ h3 {
 }
 
 /* Наши приоритеты */
-.approach-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .approach__title {
   color: #212121;
   font-weight: 700;
@@ -775,8 +783,22 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.approach__item {
-  width: 270px;
+@media screen and (max-width: 767.98px) {
+  .approach__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .approach__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .approach__item {
+    margin-bottom: 30px;
+  }
 }
 
 .approach__icon-box {
@@ -796,18 +818,24 @@ h3 {
 }
 
 .approach__icon {
-  display: block;
   width: 70px;
   height: 70px;
 }
 
 .approach__text {
+  width: 100%;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся */
+@media screen and (max-width: 767px) {
+  .projects {
+    display: none;
+  }
+}
+
 .projects-title {
   color: #212121;
   font-weight: 700;
